@@ -1,6 +1,6 @@
 #  SITIO WEB PREFECO 
 
-## [Universidad Juárez Autónoma de Tabasco](https://ww.ujat.mx)
+## [Universidad Juárez Autónoma de Tabasco](https://www.ujat.mx/)
 ## [Ingeniería en informática administrativa](https://www.ujat.mx/iia)
 
 * **Asignatura**: Programación web
