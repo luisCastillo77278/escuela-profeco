@@ -1,7 +1,7 @@
 #  SITIO WEB PREFECO 
 
 <div align="center">
-<img src="https://www.ujat.mx/Content/images/logo-ujat.png" aling="center"> 
+<img src="./public/images/logo-ujat.png" aling="center"> 
 </div>
 
 ## [Universidad Juárez Autónoma de Tabasco](https://www.ujat.mx/)
