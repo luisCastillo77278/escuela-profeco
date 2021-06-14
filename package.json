@@ -4,6 +4,7 @@
     "description": "<div align=\"center\"> <img src=\"./public/images/logo-ujat.png\" aling=\"center\">  </div>",
     "main": "app.js",
     "dependencies": {
+        "ejs": "^3.1.6",
         "express": "^4.17.1"
     },
     "devDependencies": {},
