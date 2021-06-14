@@ -1,0 +1,25 @@
+{
+    "name": "Escuela-profeco",
+    "version": "1.0.0",
+    "description": "<div align=\"center\"> <img src=\"./public/images/logo-ujat.png\" aling=\"center\">  </div>",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/luisCastillo77278/escuela-profeco.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/luisCastillo77278/escuela-profeco/issues"
+    },
+    "homepage": "https://github.com/luisCastillo77278/escuela-profeco#readme"
+}

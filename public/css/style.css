@@ -1,0 +1,41 @@
+.margin-delete {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-img-inicio {
+    background-image: url('/images/indice21.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+}
+
+.color-text {
+    color: #1b2631;
+}
+
+.color-bg-cafe {
+    background-color: rgb( 109, 76, 65);
+}
+
+.btn-cafe {
+    background-color: rgb( 121, 85, 72);
+    color: rgb( 255, 255, 255);
+}
+
+.btn-cafe:hover {
+    background-color: rgb( 62, 39, 35);
+    color: rgb( 255, 255, 255);
+}
+
+.font-montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100px;
+}
