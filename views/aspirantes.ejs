@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./components/head.ejs', {titulo: 'conocenos'}); %>
+
+    <body>
+        <%- include('./components/header.ejs'); %>
+
+            <section class="d-flex justify-content-center justify-content-md-end bg-light py-3">
+                <h4 class="px-4 font-montserrat">Aspirantes</h4>
+            </section>
+
+            <main class="mt-5 mb-5 py-2 container">
+
+                <section class="card-columns">
+
+                    <article class="card">
+                        <img class="card-img-top" src="/images/indice20.jpg" style="width: 100%; height: 16rem;" alt="indice 14">
+                        <div class="card-body">
+                            <h4 class="card-title">Oferta educativa
+                            </h4>
+                            <p class="card-text">
+                                Tiene la finalidad de brindar una formación general en lo que se ha considerado como mínimo esencial para todo bachiller a nivel nacional, es decir, aquellos conocimientos, habilidades....
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="/historia" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </article>
+
+
+                    <article class="card">
+                        <img class="card-img-top" src="/images/indice24.jpg" style="width: 100%; height: 16rem;" alt="indice 19">
+                        <div class="card-body">
+                            <h4 class="card-title">Preguntas frecuentes</h4>
+                            <p class="card-text">
+                                Ofrecer servicios educativos de calidad para formar personas con alto sentido de responsabilidad social, que participen de manera productiva y competitiva en el mercado laboral....
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="/objetivos" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </article>
+
+
+                    <article class="card">
+                        <img class="card-img-top" src="/images/indice3.jpg" style="width: 100%; height: 16rem;" alt="indice 5">
+                        <div class="card-body">
+                            <h4 class="card-title">Informes</h4>
+                            <p class="card-text">Alcanzar los más altos niveles de aprovechamiento y mantener la calidad educativa en los alumnos conformándonos como la institución de mayor prestigio dentro de nuestro subsistema....</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="/mision-vision" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </article>
+
+                </section>
+            </main>
+
+
+
+            <%- include('./components/footer.ejs'); %>
+
+    </body>
+
+</html>

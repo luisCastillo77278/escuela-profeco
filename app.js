@@ -31,7 +31,7 @@ app.get('/mision-vision', (req, res) => {
 })
 
 app.get('/aspirantes', (req, res) => {
-
+    res.render(path.join(__dirname, '/views/aspirantes.ejs'));
 });
 
 app.get('/alumnos', (req, res) => {
