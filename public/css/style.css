@@ -12,8 +12,21 @@
     height: 570px;
 }
 
+.bg-img-historia {
+    background-image: url('/images/indice7.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+}
+
 .color-text {
     color: #1b2631;
+}
+
+.color-text-cafe {
+    color: rgb( 109, 76, 65);
 }
 
 .color-bg-cafe {

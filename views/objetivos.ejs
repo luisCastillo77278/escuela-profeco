@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./components/head.ejs', {titulo: 'Historia'}) ; %>
+
+    <body>
+
+        <%- include('./components/header'); %>
+
+            <main class="bg-img-historia">
+                <%- include('./components/banner', {text:'Conócenos'}) ; %>
+                    <section class="container">
+                        <article class="mt-5 text-justify">
+                            <h4 class="font-monserrat-bold">Objetivo general</h4>
+                            <p class="font-monserrat">
+                                Ofrecer servicios educativos de calidad para formar personas con alto sentido de responsabilidad social, que participen de manera productiva y competitiva en el mercado laboral.
+                            </p>
+                        </article>
+                        <article class="mt-4 text-justify">
+                            <h4>Objetivos especificos</h4>
+                            <p>
+                                Incrementar la cobertura de atención de la formación para el trabajo con un enfoque de equidad, para contribuir a disminuir el rezago educativo y a fortalecer la continuidad de la formación integral a lo largo de la vida de la población de 15 años o más.
+                            </p>
+                            <p>
+                                Elevar la calidad de la formación para el trabajo a fin de desarrollar en las personas las competencias que les permitan incorporarse al mercado laboral, mejorar su relación con la comunidad y el entorno, retomar sus estudios formales y desarrollar las
+                                herramientas para el emprendurismo y la autogestión; y a través de ello mejorar la calidad de vida, el fortalecimiento de la identidad cultural y contribuir al desarrollo nacional.
+                            </p>
+                        </article>
+                    </section>
+            </main>
+
+    </body>
+
+    <%- include('./components/footer.ejs') ; %>
+
+</html>
