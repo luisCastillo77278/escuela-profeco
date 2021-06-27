@@ -35,12 +35,23 @@ app.get('/aspirantes', (req, res) => {
 });
 
 app.get('/alumnos', (req, res) => {
+    res.render(path.join(__dirname, '/views/alumnos.ejs'));
+})
 
+app.get('/alumnos-sis', (req, res) => {
+    res.render(path.join(__dirname, '/views/alumno-sis.ejs'));
 })
 
 app.get('/profesores', (req, res) => {
-
+    res.render(path.join(__dirname, '/views/profesores.ejs'));
 });
 
+app.get('/informes', (req, res) => {
+    res.render(path.join(__dirname, '/views/informes.ejs'));
+});
+
+app.get('/preguntas', (req, res) => {
+    res.render(path.join(__dirname, '/views/preguntas.ejs'));
+});
 
 app.listen(3000, () => console.log('Servidor en el puerto 3000'));

@@ -1,28 +1,49 @@
-.margin-delete {
-    margin: 0px;
-    padding: 0px;
+/* estilos del inicio */
+
+.contenedor {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    display: flex;
 }
 
-.bg-img-inicio {
-    background-image: url('/images/indice21.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    height: 570px;
+.contenedor-img img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 90vh;
+    opacity: 0.6;
 }
 
-.bg-img-historia {
-    background-image: url('/images/indice7.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    height: 570px;
+.contenedor-text {
+    position: absolute;
+    align-items: center;
+    z-index: 2;
+    top: 35%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+}
+
+
+/* estilos del inicio */
+
+.contenedor-text-sub {
+    top: 10%;
+    position: absolute;
+    align-items: center;
+    z-index: 2;
+    left: 15%;
+    right: 15%;
+    text-align: justify;
+}
+
+.color-primary {
+    color: #194bb0;
 }
 
 .color-text {
-    color: #1b2631;
+    color: #0e1319;
 }
 
 .color-text-cafe {
@@ -50,5 +71,5 @@
 
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100px;
+    font-weight: 200px;
 }
