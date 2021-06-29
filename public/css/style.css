@@ -71,5 +71,9 @@
 
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200px;
+    font-weight: 100px;
+}
+
+.font-size2 {
+    font-size: 1.2rem;
 }

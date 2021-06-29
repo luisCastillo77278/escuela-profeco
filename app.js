@@ -47,7 +47,42 @@ app.get('/informes', (req, res) => {
 });
 
 app.get('/preguntas', (req, res) => {
-    res.render(path.join(__dirname, '/views/preguntas.html'));
+    res.sendFile(path.join(__dirname, '/views/preguntas.html'));
+});
+
+// ofertas educativas
+app.get('/basica', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/fbasica.html'));
+});
+
+app.get('/prepedeuticotrabajo', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/fptrabajo.html'));
+});
+
+app.get('/actparaescolar', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/actparaescolar.html'));
+});
+
+app.get('/areaingreso', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/areaingreso.html'));
+});
+
+app.get('/fisica', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/fisica.html'));
+})
+
+app.get('/biologia', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/biologia.html'));
+});
+
+
+app.get('/sociales', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/sociales.html'));
+});
+
+
+app.get('/humanidades', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/humanidades.html'));
 });
 
 app.listen(3000, () => console.log('Servidor en el puerto 3000'));
